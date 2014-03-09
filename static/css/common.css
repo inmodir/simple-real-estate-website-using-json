@@ -1,0 +1,235 @@
+/* --------------------------- General ---------------------------------------------------------- */
+
+/* 
+Colours:
+Links: 2c5388 / 4198ff ;
+*/
+
+html{background-color:#fff;height:100%;
+	background-position:center top;
+	background-repeat:no-repeat;
+    background-image:url('../img/background.jpg');
+	background-attachment:fixed;}/*idem footer*/
+
+body {
+	position:relative;
+	margin:0 auto;padding:0;
+	width:100%;height:100%;
+    font-size:15px;color:#333;
+}
+
+p,a,h1,h2,h3,h4,div,span,th,td,dl,dt,dd,ul,ol,li {
+	font-family: Arial,Helvetica,sans-serif;	
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {text-decoration:none;}
+a:link {color:#2c5388;}
+a:visited {color:#2c5388;}
+a:hover {color:#fff;text-decoration:underline;}
+a:active {color:#2c5388;}
+
+dfn, abbr {font-style:normal;border:none;}
+
+
+
+
+
+/* --------------------------- Contents --------------------------------------------------------- */
+
+header {
+	position:relative;float:none;
+	margin:0px auto 0 auto;padding:0px;
+	width:100%;height:200px;/*must be idem 'header .wrap'*/
+	clear:both;overflow:visible;/*
+	box-shadow:inset 0 0 100px #000;*/
+	background-color:rgba(0,0,0,0.3);
+}
+
+#content, section {
+	position:relative;float:none;
+	margin:0 auto;padding:0px;
+	width:100%;/*height*/
+	clear:both;overflow:hidden;	
+}
+
+#content {min-height:50px;box-shadow:0 20px 150px #000;}
+
+footer {
+	position:relative;float:none;
+	margin:0px auto 0 auto;padding:10px 0 0 0;
+	width:100%;min-height:55px;/*must be idem 'footer .wrap'*/
+	clear:both;overflow:visible;
+}
+
+
+
+/* --------------------------- Wraps ------------------------------------------------------------ */
+
+.wrap {
+	position:relative;float:none;
+	margin:0 auto;padding:0px;
+	width:90%;min-height:10px;/*Or put width:960px; to use the 960 grid if you want */
+	min-width:300px;/*320-20px of scrollbar */
+	clear:both;overflow:hidden;
+}
+
+header .wrap {min-height:200px;}
+footer .wrap {min-height:55px;}
+#content .wrap {min-height:300px;}
+
+
+
+/* --------------------------- Logo ------------------------------------------------------------- */
+
+header h1 {
+	position:relative;float:left;
+	margin:35px auto 0 auto;padding:0px;
+	width:300px;height:115px;
+	overflow:visible;
+	text-indent:-900em;
+	background-position:left bottom;
+	background-repeat:no-repeat;
+    background-image:url('../img/logo.png');
+	z-index:999;
+}
+
+h1 a{display:block;width:300px;height:115px;}
+h1 a:hover{text-decoration:none;}
+
+
+
+
+/* --------------------------- Mainmenu --------------------------------------------------------- */
+
+header nav {
+	position:relative;float:none;
+	margin:0 auto;padding:0;
+	width:100%;min-height:30px;
+	overflow:hidden;
+}
+
+header nav ul {	
+	position:relative;float:none;
+	margin:7px auto 0 auto;padding:5px 0 0 0;
+	width:auto;min-height:25px;
+	overflow:hidden;
+    list-style-type:none;
+	border-top:1px solid #fff;/*border-bottom:1px solid #fff;*/
+	text-align:center;
+}
+
+header nav ul li {
+	margin:0 auto;padding:0;
+	width:24%;min-height:20px;
+	text-align:center;vertical-align:middle;
+	overflow:hidden;
+	display:inline-block;
+}
+
+header nav ul li a {
+	margin:4px 5px 4px 5px;padding:5px 5px 2px 5px;
+	width:auto;min-height:16px;
+	text-align:center;font-size:80%;line-height:100%;letter-spacing:0.1px;color:#fff;text-transform:uppercase;
+	display:inline-block;
+	background-color:rgba(0,0,0,0.3);
+	border-radius:5px;
+}
+header nav ul li a:hover {text-decoration:none;box-shadow:0 0 4px #000;}
+
+header nav a {text-decoration:none;}
+header nav a:link {color:#fff;}
+header nav a:visited {color:#fff;}
+header nav a:hover, header nav a.on {color:#fff;text-shadow:0 0 5px #000;box-shadow:0 0 4px #000;}
+header nav a.on {background-color:rgba(0,0,0,0.5);}
+header nav a:active {color:#fff;}
+
+
+
+
+/* --------------------------- Footerpage ------------------------------------------------------- */
+
+
+footer .copyright, 
+footer .author,
+footer .footermenu {
+	position:relative;float:left;
+	margin:15px 25px 0 0;padding:0;
+	min-height:15px;
+	overflow:hidden;
+	font-size:90%;font-style:normal;letter-spacing:0.5px;color:#fff;
+}
+
+footer .copyright {text-align:left;text-transform:uppercase;}
+
+footer .author {float:right;text-align:right;margin-bottom:15px;}
+
+footer ul.footermenu {
+	width:auto;
+	overflow:hidden;
+	list-style-type:none;
+}
+footer ul.footermenu li {
+	margin:0 auto;padding:0 4px 0 5px;
+	width:auto;min-height:20px;
+	overflow:hidden;
+	display:inline-block;
+	border-left:1px solid #fff;
+}
+footer ul.footermenu li:first-child {border:none;padding-left:0;}
+
+footer .recommendbut, 
+footer .followbut {
+	position:relative;float:left;
+	margin:10px 15px 0 0;padding:0;
+	min-height:28px;
+	overflow:hidden;
+} 
+
+
+
+/* --------------------------- Social network bar ----------------------------------------------- */
+
+
+
+#socialnetwork {
+	position:absolute;top:0;/*it could be: position:fixed; */
+	margin:0 auto;padding:0;
+	width:100%;height:0px;
+	overflow:visible;
+}
+
+#socialnetwork ul {
+	position:relative;float:right;
+	margin:0 4% 0 auto;padding:5px 8px 2px 13px;
+	width:auto;height:35px;/*look at the 'header h1' margin top*/
+	z-index:999;
+	background-color:rgba(0,0,0,0.5);
+	border-radius:0 0 5px 5px;
+}
+#socialnetwork ul li {
+	position:relative;float:right;
+	margin:0 5px 0 0;padding:0;
+	width:30px;height:30px;
+	overflow:hidden;
+}
+
+#socialnetwork ul li a {
+	margin:0 auto;padding:0;
+	width:100%;height:100%;
+	overflow:hidden;
+	text-indent:-900em;	
+	background-repeat:no-repeat;  
+	background-image:url('../img/network_sprite.png');  
+	display:block;
+	border-radius:15px;
+}
+#socialnetwork ul li a:hover {background-color:rgba(0,0,0,0.3);}
+#socialnetwork ul li a.googleplus {background-position:0 0;}
+#socialnetwork ul li a.linkedin {background-position:0 -30px;}
+#socialnetwork ul li a.inmodir {background-position:0 -60px;}
+#socialnetwork ul li a.facebook {background-position:0 -90px;}
+#socialnetwork ul li a.twitter {background-position:0 -120px;}
+#socialnetwork ul li a.blogspot {background-position:0 -150px;}
+#socialnetwork ul li a.skype {background-position:0 -180px;}
+#socialnetwork ul li a.youtube {background-position:0 -210px;}

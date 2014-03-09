@@ -1,0 +1,270 @@
+/* --------------------------- Internal pages styles only --------------------------------------- */
+
+#content h2 {
+	position:relative;float:none;
+	margin:0 auto;padding:20px 0 10px 0;
+	width:100%;min-height:25px;
+	overflow:hidden;
+	display:block;
+	font-size:150%;text-align:left;
+}
+
+/* Ads description */ 
+
+
+#content p.description {
+	position:relative;float:right;
+	margin:0 auto;padding:10px 0 10px 0;
+	width:100%;min-width:300px;min-height:25px;
+	overflow:hidden;
+	display:block;
+	font-size:125%;text-align:left;
+	border-bottom:1px dashed #555;
+}
+
+#content dl.addata_info {	
+	position:relative;float:left;
+	margin:25px auto 15px auto;padding:0;
+	width:60%;min-width:300px;min-height:25px;
+	overflow:hidden;
+}
+
+#content dl.addata_info dt,
+#content dl.addata_info dd {
+	position:relative;float:left;
+	margin:0 auto;padding:0;
+	min-height:25px;
+	overflow:hidden;
+	font-size:80%;
+}
+
+#content dl.addata_info dt {width:40%;font-weight:bold;}
+#content dl.addata_info dd {width:60%;}
+
+.addata_moreinfo {
+	position:relative;float:left;
+	margin:25px auto 15px auto;padding:0;
+	width:40%;min-width:300px;min-height:225px;
+	overflow:hidden;
+}
+.addata_moreinfo p {margin:0 auto 15px auto;font-size:80%;}
+
+
+ul.adsdata_pictures {
+	position:relative;float:none;
+	margin:25px auto 15px auto;padding:0;
+	width:100%;min-width:300px;min-height:75px;
+	list-style-type:none;
+	overflow:hidden;
+}
+
+ul.adsdata_pictures li {
+	position:relative;float:left;
+	margin:0 5px 5px 0;padding:0;
+	width:100px;height:100px;
+	overflow:hidden;
+	border:5px solid #2a2a2a;border-radius:5px;
+	background-color:rgba(0,0,0,0.3);
+}
+ul.adsdata_pictures li img {width:100px;}
+
+
+
+/* Gmap */
+
+.gmap {
+	position:relative;float:none;
+	margin:25px auto 15px auto;padding:0;
+	width:100%;min-width:300px;min-height:500px;
+	overflow:hidden;
+}
+
+.gmap .gmap_content {width:225px;height:200px;}
+
+.gmap .gmap_content_pic {
+	position:relative;float:left;
+	margin:0 auto;
+	width:80px;height:45px;
+	overflow:hidden;
+}
+.gmap .gmap_content_pic img {width:80px;}
+
+.gmap .gmap_content_ref, 
+.gmap .gmap_content_data, 
+.gmap .gmap_content_ask,
+.gmap .gmap_content_re{
+	position:relative;float:none;
+	margin:0 auto;
+	width:100%;min-height:20px;
+	overflow:hidden;clear:both;
+}
+
+.gmap .gmap_content_data{min-height:55px;}
+.gmap .gmap_content_ask{padding-top:5px;}
+.gmap .gmap_content_re{min-height:55px;}
+
+
+/* Ads list */ 
+
+
+ul.adslist {
+	position:relative;float:none;
+	margin:0 auto 15px auto;padding:0;
+	width:100%;min-width:300px;min-height:50px;
+	list-style-type:none;
+	overflow:hidden;
+}
+
+ul.adslist li {
+	position:relative;float:none;
+	margin:5px 0 5px 0;padding:5px 0 5px 0;
+	width:100%;height:50px;
+	overflow:hidden;
+	border-bottom:1px dotted #333;
+}
+
+ul.adslist li:last-child {border-bottom:none;}
+
+
+ul.adslist li a {width:100%;height:100%;border-radius:5px;display:block;}
+ul.adslist li a:hover {background-color:rgba(0,0,0,0.1);}
+
+ul.adslist li p.txt {
+	position:relative;float:left;
+	margin:0 auto;padding:5px 0 0 60px;
+	width:auto;min-width:240px;min-height:45px;
+	overflow:hidden;
+	display:block;
+	font-size:80%;text-align:left;
+}
+
+ul.adslist li p.txt em {
+	float:right;margin-left:5px;padding:0 2px 0 2px;
+	font-weight:bold;font-style:normal;
+	background-color:rgba(0,0,0,0.3);
+	border-radius:5px;
+}
+
+ul.adslist li p.img {
+	position:absolute;top:5px;left:5px;
+	margin:0 auto;padding:0;
+	width:50px;height:50px;
+	overflow:hidden;
+	display:block;
+	background-color:#2a2a2a;
+	box-shadow:0 0 5px #000;
+}
+ul.adslist li p.img img {width:50px;}
+
+
+
+/* Contact form */
+
+
+#content p.contactform_note {
+	position:relative;float:none;
+	margin:0 auto;padding:10px 0 10px 0;
+	width:100%;min-height:25px;
+	overflow:hidden;
+	display:block;
+	font-size:125%;text-align:left;
+}
+
+#content p.contactform_error {
+	position:relative;float:left;
+	margin:0 auto;padding:10px 0 10px 4%;
+	width:25%;min-height:25px;
+	overflow:hidden;
+	display:block;
+	font-size:85%;text-align:left;color:#dd0000;text-shadow:0 1px 3px #fff;
+}
+
+
+fieldset.contact {
+	position:relative;float:left;
+	margin:0 auto;padding:30px 0 0 0;
+	width:70%;min-width:300px;min-height:20px;
+	overflow:visible;clear:both;
+	border:none;
+}
+
+fieldset.contact legend {
+	position:relative;float:none;
+	margin:0 0 10px 0;padding:5px 0 0 0;
+	width:100%;min-height:10px;
+	overflow:visible;
+	border:none;
+	font-size:155%;color:#fff;
+	/*border-bottom:1px dashed #ddd;*/
+}
+
+fieldset.contact p {
+	position:relative;float:left;
+	margin:5px 0 20px 0;padding:0px;
+	width:100%;height:auto;
+	overflow:hidden;clear:both;
+}
+
+fieldset.contact label{
+	position:relative;float:left;
+	margin:0 auto;padding:7px 0 10px 0;
+	width:30%;min-height:15px;
+	font-size:100%;line-height:80%;color:#555;text-align:left;
+	overflow:visible;
+}
+
+fieldset.contact label.form_label_ok {color:#555;}
+fieldset.contact label.form_label_error {color:#ff0000;}
+fieldset.contact label.radio {width:30%;font-size:60%;}
+fieldset.contact label em {color:#980e36;font-style:normal;font-size:80%;}
+
+
+/* General forms */
+
+
+form input[type=submit]{
+	margin:5px auto auto auto;padding:0 13px 0 13px;
+	position:relative;float:none;
+	width:auto;height:37px;
+    text-decoration:none;
+	font-family:Arial, Tahoma, Helvetica, sans-serif;font-size:95%;line-height:100%;color:#fff;text-align:left;font-weight:normal;
+	background-color:#424242;
+    display:block;	
+	border-radius:5px;border:none;
+}
+
+form input[type=submit]:hover,
+form input[type=submit]:active
+{
+	background-color:#080808;
+    color:#fff;text-shadow:1px 1px 0.15em #000;
+	border:none;
+    outline: none; /* hide dotted outline in Firefox */
+	cursor:pointer; /* efecto puntero del ratón como hipervinculo */
+}
+form input[type=submit]:hover{cursor:pointer;}
+
+form input[type=text]{
+	position:relative;float:right;
+	margin:0 auto;padding:3px;
+	width:60%;height:30px;
+	overflow:visible;
+	background-color:#fff;
+	font-family:Arial, Tahoma, Helvetica, sans-serif;font-size:95%;line-height:80%;color:#555;text-align:left;font-weight:normal;
+	border-radius:5px;border:none;
+	box-shadow:inset 2px 2px 5px #777;
+}
+
+
+form textarea{
+	position:relative;float:right;
+	margin:0 auto;padding:7px 3px;
+	width:99%;min-height:10px;
+	overflow:visible;
+	background-color:#fff;border:1px solid #cfcfcf;
+	font-family:Arial, Tahoma, Helvetica, sans-serif;font-size:95%;line-height:100%;color:#555;text-align:left;font-weight:normal;
+	clear:both;
+	border-radius:5px;border:none;
+	white-space:nowrap;
+	box-shadow:inset 2px 2px 5px #777;
+}
