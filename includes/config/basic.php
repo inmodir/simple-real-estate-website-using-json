@@ -7,8 +7,8 @@ $websitePhone="96 123 1234";
 $websitePlacename="London, Ontario";//Optional, or let this var empty
 $websiteRegion="CA-ON";//Optional, or let this var empty
 $websiteCountry="España";
-$websiteLang="enES";//Language
-$websiteFormEmailSender="sales@mydomain.local";//Not public. Must have the same domain as the website. See 'includes/scripts/contactform_process.php'
+$websiteLang="esES";//Language
+$websiteFormEmailSender="sales@mydomain.co.uk";//Not public. Must have the same domain as the website. See 'includes/scripts/contactform_process.php'
 $websiteFormEmailDestiny="sales@mydomain.co.uk";//Idem 
 $websiteAuthorName="John Doe";//Webmaster´s name
 $websiteAuthorUrl="http://www.google.com";//Do not forget to put 'http://' at the beginning
@@ -16,8 +16,8 @@ $websiteUrl="http://www.mydomain.co.uk";//Do not forget to put 'http://' at the 
 $websiteUrlStatic=$prefix."static";//Without any last slash. Recomended, in an absolute way like: "http://static.mydomain.co.uk"
 //
 // InmoDir account settings
-$inmodirLabUrl="http://ar.inmodir.local/lab";//"http://{country-ext}.inmodir.com/lab"
-$inmodirInteractionsUrl="http://arcl1.inmodir.local/js/interactions.js";//"http://{country-ext}cl1.inmodir.local/js/interactions.js" - See also 'includes/sitematrix/bodymorescripts.php'
+$inmodirLabUrl="http://es.inmodir.com/lab";//"http://{country-ext}.inmodir.com/lab"
+$inmodirInteractionsUrl="http://escl1.inmodir.com/js/interactions.js";//"http://{country-ext}cl1.inmodir.local/js/interactions.js" - See also 'includes/sitematrix/bodymorescripts.php'
 $inmodirIcode="10541385229280234788191408708099";//Your customer´s 'icode' of InmoDir
 //
 // More
