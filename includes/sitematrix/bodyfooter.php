@@ -12,7 +12,7 @@ echo"     <li><a href=\"".$prefix.$mainmenuUri_forsale."\" title=\"".$mainmenuTi
 echo"     <li><a href=\"".$prefix.$mainmenuUri_contact."\" title=\"".$mainmenuTitle_contact."\">".$mainmenuName_contact."</a></li>\n";
 echo"    </ul>\n";//ul:footermenu
 echo"    <a class=\"author\" href=\"".$websiteAuthorUrl."\" title=\"Web design by ".$websiteAuthorName."\" onclick=\"window.open(this.href,'_blank');return false;\">".$websiteAuthorName."</a>\n";
-echo"    <div id=\"inmodir_rbtn\" class=\"recommendbut\"></div>\n";//'botón'Recommend' button of InmoDir. See 'includes/sitematrix/bodymorescripts.php'
+echo"    <div id=\"inmodir_rbtn\" class=\"recommendbut\"></div>\n";//'Recommend' button of InmoDir. See 'includes/sitematrix/bodymorescripts.php'
 echo"    <div id=\"inmodir_fbtn\" class=\"followbut\"></div>\n";//'Follow' button of InmoDir.
 echo"   </div>\n";//wrap
 echo"  </footer>\n";
