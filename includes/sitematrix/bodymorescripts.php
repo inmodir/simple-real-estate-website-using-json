@@ -1,6 +1,6 @@
 <?php if(!isset($include) OR $include!="yes"){header("Location: http://".$_SERVER ['HTTP_HOST']."/");exit;}
 // -----------------------------------------
-// Body more script inside body before close it
+// Body more scripts inside body before close it
 // -----------------------------------------
 echo"  <!-- More scripts before close body (start)-->\n";
 if(isset($shadowbox) && $shadowbox=="yes")
@@ -29,10 +29,6 @@ if (isset($jLimitChar) && $jLimitChar=="yes")
 }
 if (isset($Jgooglemap) && $Jgooglemap=="yes")
 {
-//http://miguelperezsubias.com/spip.php?article157
-//http://appsistemas.comlu.com/mapas_marcador.php
-//http://telegolf.org/pruebas/mapas/mapas_marcador.php#B#
-
  echo"  <script src=\"https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&amp;language=es\"></script>\n";
  echo"  <script type=\"text/javascript\">\n";
  echo"   function initialize() {\n";
@@ -73,8 +69,8 @@ if (isset($Jgooglemap) && $Jgooglemap=="yes")
 // http://www.inmodir.com/es-es/desarrolladores
 echo"  <script type=\"text/javascript\">\n";
 echo"	var icode=\"".$inmodirIcode."\",\n";//Real estate ´s icode (see 'includes/config/basic.php')
-echo"       rbtn=\"inmodir_rbtn\",\n";//Name of the DIV qhre 'recommend button' should be (see footer)
-echo"       fbtn=\"inmodir_fbtn\";\n";//Name of the DIV qhre 'follow button' should be (see footer)
+echo"       rbtn=\"inmodir_rbtn\",\n";//Name of the DIV where 'recommend button' should be (see footer)
+echo"       fbtn=\"inmodir_fbtn\";\n";//Name of the DIV where 'follow button' should be (see footer)
 echo"  </script>\n";
 echo"  <script type=\"text/javascript\" src=\"".$inmodirInteractionsUrl."\"></script>\n";// InmoDir Interactions URL (see 'includes/config/basic.php')
 echo"  <!-- More scripts before close body (end)-->\n";
